@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FSMS - Vendors</title>
+    <title>FUEL STATION MANAGEMENT SYSTEM - Dashboard</title>
 
     <!-- favicon for this website-->
     <link rel="icon" type="image/x-icon" href="/img/favicon_io/favicon-16x16.png">
@@ -22,8 +22,10 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="indexemployee.css" rel="stylesheet">
 
 </head>
+
 
 <body id="page-top">
 
@@ -34,7 +36,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="indexemployee.html">
                 <!-- <div class="sidebar-brand-icon rotate-n-0">
                     <img src="/img/Logo3.png" alt="Calendar Icon">
                 </div> -->
@@ -51,7 +53,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="indexemployee.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -59,59 +61,7 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Interface
-            </div>
-
-             <!-- Nav Item - Sales -->
-             <li class="nav-item">
-                <a class="nav-link" href="sales.html">
-                    <i class="fas fa-fw fa-credit-card"></i>
-                    <span>Sales</span></a>
-            </li>
-
-             <!-- Nav Item - Dispensers -->
-             <li class="nav-item">
-                <a class="nav-link" href="dispenser.html">
-                    <i class="fas fa-fw fa-gas-pump"></i>
-                    <span>Dispensers</span></a>
-            </li>
-
-             <!-- Nav Item - Tanks -->
-             <li class="nav-item">
-                <a class="nav-link" href="tanks.html">
-                    <i class="fas fa-fw fa-drum-steelpan"></i>
-                    <span>Tanks</span></a>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Updates
-            </div>
-            
-             <!-- Nav Item - Users -->
-             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUser"
-                    aria-expanded="true" aria-controls="collapseUser">
-                    <i class="fas fa-fw fa-users"></i>
-                    <span>Users</span>
-                </a>
-                <div id="collapseUser" class="collapse" aria-labelledby="headingUser" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Registration:</h6>
-                        <a class="collapse-item" href="staffreg.html">Register Staff</a>
-                        <a class="collapse-item" href="department.html">Department</a>
-                        <a class="collapse-item" href="rolesduties.html">Roles & Duties</a>
-                    </div>
-                </div>
-            </li>
+           
 
             <!-- Nav Item - Information -->
             <li class="nav-item">
@@ -123,10 +73,8 @@
                 <div id="collapseInformation" class="collapse" aria-labelledby="headingInformation" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Day-to-Day Activities:</h6>
-                        <a class="collapse-item" href="employreport.html">Employees Report</a>
-                        <a class="collapse-item" href="salesreport.html">Sales Report</a>
-                        <a class="collapse-item" href="newsevents.html">News & Events</a>
-                        <a class="collapse-item" href="promotionads.html">Promotion & Ads</a>
+                        <a class="collapse-item" href="employeenewsevents.html">News & Events</a>
+                        <a class="collapse-item" href="employeepromoads.html">Promotion & Ads</a>
                     </div>
                 </div>
             </li>
@@ -142,10 +90,10 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Current Utilities:</h6>
-                        <a class="collapse-item" href="vendors.html">Vendors</a>
-                        <a class="collapse-item" href="utilities-carwash.html">Car wash</a>
-                        <a class="collapse-item" href="utilities-Supermarket.html">Supermarket</a>
-                        <a class="collapse-item" href="employeesheet.html">Employees Sheet</a>
+                        
+                        <a class="collapse-item" href="employeecarwash.html">Car wash</a>
+                        <a class="collapse-item" href="employeesupermarket.html">Supermarket</a>
+                       
                     </div>
                 </div>
             </li>
@@ -180,17 +128,17 @@
                     </div>
                 </div>
             </li>
-
+            
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="contactus.html">
+                <a class="nav-link" href="employeecontactus.html">
                     <i class="fas fa-fw fa-envelope"></i>
                     <span>Contact Us</span></a>
             </li>
 
             <!-- Nav Item - Location -->
 <li class="nav-item">
-    <a class="nav-link" href="location.html">
+    <a class="nav-link" href="employeelocation.html">
         <i class="fas fa-fw fa-map-pin"></i>
         <span>Our Location</span>
     </a>
@@ -224,8 +172,12 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
+
+            
+
         </ul>
         <!-- End of Sidebar -->
+
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -288,7 +240,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-bell fa-fw"></i>
                                 <!-- Counter - Alerts -->
-                                <span class="badge badge-danger badge-counter">2+</span>
+                                <span class="badge badge-danger badge-counter">3+</span>
                             </a>
                             <!-- Dropdown - Alerts -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -303,8 +255,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 12, 2024</div>
-                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                        <div class="small text-gray-500">Important 🚨 : December 12, 2024</div>
+                                        <span class="font-weight-bold">Annual Target deadline is due soon.</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -314,8 +266,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 7, 2024</div>
-                                        50,000,000TSH has been deposited into your account!
+                                        <div class="small text-gray-500">Salary ✔ : December 7, 2024</div>
+                                        5,000,000TSH has been deposited into your account! 
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -325,8 +277,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 2, 2024</div>
-                                        Fuel Level Alert: Fuel level has dropped to 1000L! .
+                                        <div class="small text-gray-500">Reminder ⏰ : December 2, 2024</div>
+                                        Department meeting in 2 hours (3:00pm EAT)
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
@@ -339,7 +291,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-envelope fa-fw"></i>
                                 <!-- Counter - Messages -->
-                                <span class="badge badge-danger badge-counter">5</span>
+                                <span class="badge badge-danger badge-counter">1</span>
                             </a>
                             <!-- Dropdown - Messages -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -354,44 +306,41 @@
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                                            problem I've been having.</div>
-                                        <div class="small text-gray-500">Mwajuma Ally · 58m</div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
-                                        <div class="status-indicator"></div>
-                                    </div>
-                                    <div>
-                                        <div class="text-truncate">I have the CV letters that you ordered last month, how
-                                            would you like them sent to you?</div>
-                                        <div class="small text-gray-500">Enock Chami · 1d</div>
+                                        <div class="text-truncate">Hi there! Any challenges so far?</div>
+                                        <div class="small text-gray-500">Glory Leonard · 58m</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
                                         <img class="rounded-circle" src="img/undraw_profile_3.svg"
                                             alt="...">
-                                        <div class="status-indicator bg-warning"></div>
+                                        <div class="status-indicator"></div>
                                     </div>
                                     <div>
-                                        <div class="text-truncate">Last month's report looks great, I am very happy with
-                                            the progress so far, keep up the good work!</div>
-                                        <div class="small text-gray-500">Total EAfrica CEO · 2d</div>
+                                        <div class="text-truncate">Can you brief me about the meeting?</div>
+                                        <div class="small text-gray-500">John Innocent · 1d</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
+                                            alt="...">
+                                        <div class="status-indicator bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Great progress, keep up the good work!</div>
+                                        <div class="small text-gray-500">Manager · 2d</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="img/bolt logo.png"
                                             alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div>
-                                        <div class="text-truncate">How would you like your employees to have as dinner and breakfast?In order to customize our delivery services to the maximum efficient...</div>
-                                        <div class="small text-gray-500">PIKI TZ · 2w</div>
+                                        <div class="text-truncate">Your trip on Sunday. Thanks for choosing Bolt ...</div>
+                                        <div class="small text-gray-500">BOLT TZ · 2w</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
@@ -404,14 +353,14 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">David Shuma</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Petro Abdulqadir</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="employeeprofile.html">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
@@ -437,112 +386,85 @@
                 <!-- End of Topbar -->
 
 
-                <!-- MAIN CONTENT HERE -->
-                     <!-- Begin Page Content -->
-                     <div class="container-fluid">
 
-                        <!-- Page Heading -->
-                        <h1 class="h3 mb-1 text-gray-800">Vendors</h1>
-                        <p class="mb-4">Review the Car wash' contracts <a
-                                href="https://getbootstrap.com/docs">Vendors partnership</a>
-                                Our trusted fuel delivery vendors ensure timely and efficient supply to our stations, maintaining seamless operations round the clock. Each vendor is meticulously vetted to guarantee safety, reliability, and adherence to industry standards. By partnering with the best in the business, we ensure our customers always have access to the highest quality fuel.</p>
-    
-                        <!-- Content Row -->
-                        <div class="row">
-    
-                            <!-- First Column -->
-                            <div class="col-lg-4">
-    
-                                <!-- Custom Text Color Utilities -->
-                                <div class="card shadow mb-4">
-                                    <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Vendors and their strength</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="text-gray-100 p-3 bg-dark m-0">Simba Oil's dependable service in high-demand areas, sibedltd's excellence in timely deliveries, Mowara's impactful sustainability initiatives, and PetroFuel's outstanding customer service and reliability. These real-world examples underline the exceptional performance and collaboration we experience with our valued vendor</p>
-                                        
-                                    </div>
-                                </div>
-    
-                                <!-- Custom Font Size Utilities -->
-                                <div class="card shadow mb-4">
-                                    <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Visit their sites</h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <a
-                                href="https://simbaoil.co.tz">SIMBA OIL LTD</a><br>
-                                <a
-                                href="https://www.sibedltd.com">SIBEDI LTD</a><br>
-                                <a
-                                href="https://mowara.co.tz">MOWARA LTD</a><br>
-    
-                                <a
-                                href="https://petrofuel.co.tz">PETRO FUEL LTD</a>
-                                    </div>
-                        
-                                </div>
-    
-                            </div>
-    
-                            <!-- Second Column -->
-                            <div class="col-lg-4">
-    
-                                <div class="container">
-                                    <select class="form-control" id="sel1">
-                                        <option>PLACE THE CURRENT VENDOR TO DELIVER THE FUEL(REMINDER)</option>
-                                        <option>SIMBA OIL</option>
-                                        <option>MOWARA</option>
-                                        <option>SIBED</option>
-                                        <option>PETRO FUEL</option>
-                                    </select>
-                                </div>
-                            <br> <br>
-                                
-                                <div class="container">
-                                    <select class="form-control" id="sel1">
-                                        <option>ARRIVAL DATE</option>
-                                        
-                                    </select>
-                                </div>
-    <br> <br>
-                                
-                                <div class="container">
-                                    <select class="form-control" id="sel1">
-                                        <option>TRUCKS NO</option>
-                                        <option>2 trucks</option>
-                                        <option>3 trucks</option>
-                                        <option>4 And above trucks</option>
-                                    </select>
-                                </div>
-                                <br> <br>
-    
-                                <form class="container" >
-                                    <div class="form-group">
-                        
-                                      <div class="col-sm-15">
-                                        <input type="email" class="form-control" id="amount" placeholder="Enter Fuel amount in TSh">
-                                      </div>
-                                    </div>
-    
-                                    <div class="container">
-                                        <form action="/action_page.php">
-                                         
-                                          <div class="form-group">
-                                            <input type="file" class="form-control-file border" name="file">
-                                          </div>
-                                          <button type="submit" class="btn btn-primary">Save</button>
-                                        </form>
-                                      </div>
-                                      
-                        </form>
-                        </div>
-                        </div>
-                        </div>
-                        </div>              
-                <!-- End of Main Content -->
-    
-    
+                <!-- MAIN CONTENT HERE -->
+
+                <!-- MAIN CONTENT HERE -->
+
+<div id="content" class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-4 text-gray-800">Contact Us</h1>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Contact Form</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name" required data-form-input>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your email" required data-form-input>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="phone" class="form-control" id="phone" placeholder="Phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="subject" class="form-control" id="subject" placeholder="Your Subject*" required data-form-input>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Type Message*" required data-form-input></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <!-- Contact Information -->
+            <div class="contact-info text-right">
+                <div class="text-left">
+                <h3>Contact Information</h3>
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+                <p><strong>Address:</strong></p>
+                <p>Plot 79, Kijitonyama Sayansi Area</p>
+                <p>P.O.Box 13559</p>
+                <p>14113 Dar es Salaam,</p>
+                <p>Tanzania.</p>
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+                <p><strong>Email:</strong> </p>
+                <a href="mailto:shuma.david255@gmail.com" class="contact-link"><p>manager@fsms.com</p></a>
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+                <p><strong>Phone:</strong> </p>
+                <p>+255 688 282 272</p>
+                <p>+255 716 102 153</p>
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+                <p><strong>Social medias:</strong> </p>
+                <p><ul class="social-list">
+
+                    <li class="social-item">
+                      <a href="https://www.linkedin.com/in/david-shuma-234148259" class="social-link">
+                        <ion-icon name="logo-linkedIn">LinkedIn</ion-icon>
+                      </a>
+                    </li>
+          </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 
